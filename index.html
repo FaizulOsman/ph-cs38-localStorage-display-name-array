@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <section class="w-1/2 mx-auto mt-10">
+        <input id="first-input" class="border border-2 border-blue-400 rounded-sm p-2 w-full"
+            placeholder="Enter your first name" type="text"><br>
+        <input id="last-input" class="border border-2 border-blue-400 rounded-sm p-2 mt-3 w-full"
+            placeholder="Enter your last name" type="text"><br>
+        <div class="flex justify-between">
+            <button id="add-details-btn" class="rounded-sm bg-blue-400 mt-2 px-3 py-2 text-white">Add Details</button>
+            <button onclick="clearAll()" class="rounded-sm bg-red-500 mt-2 px-3 py-2 text-white">Clear All</button>
+        </div>
+        <ul id="details" class="my-10"></ul>
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
